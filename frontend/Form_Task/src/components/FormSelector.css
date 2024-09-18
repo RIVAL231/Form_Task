@@ -1,0 +1,46 @@
+.form-selector {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-selector h2 {
+    margin-bottom: 15px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  
+  .button:hover {
+    transform: translateY(-2px);
+  }
+  
+  .button-primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .button-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  .button-secondary {
+    background-color: var(--secondary-color);
+    color: white;
+  }
+  
+  .button-secondary:hover {
+    background-color: #27ae60;
+  }
